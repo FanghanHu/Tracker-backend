@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "projects",
+  "info": {
+    "name": "project"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "date_start": {
+      "type": "date"
+    },
+    "date_end": {
+      "type": "date"
+    },
+    "year": {
+      "type": "string"
+    },
+    "location": {
+      "type": "string"
+    },
+    "long": {
+      "type": "float"
+    },
+    "lat": {
+      "type": "float"
+    }
+  }
+}
