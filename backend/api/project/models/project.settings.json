@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "projects",
   "info": {
-    "name": "project"
+    "name": "project",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -11,19 +12,37 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "name": {
+    "project_name": {
       "type": "string"
     },
-    "date_start": {
-      "type": "date"
+    "route": {
+      "type": "string"
     },
-    "date_end": {
-      "type": "date"
+    "work_type": {
+      "model": "work-type"
+    },
+    "status": {
+      "type": "string"
+    },
+    "control_period": {
+      "type": "string"
     },
     "year": {
+      "type": "integer"
+    },
+    "time_name": {
       "type": "string"
     },
-    "location": {
+    "from_date": {
+      "type": "date"
+    },
+    "to_date": {
+      "type": "date"
+    },
+    "date_status": {
+      "type": "string"
+    },
+    "duration": {
       "type": "string"
     },
     "long": {
